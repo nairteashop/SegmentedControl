@@ -28,7 +28,7 @@ Sample layout XML:
 ```xml
 <org.nairteashop.SegmentedControl
     android:id="@+id/segmented_control"
-    android:layout_width="match_parent"
+    android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:orientation="horizontal"
 >
