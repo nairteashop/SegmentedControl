@@ -1,0 +1,30 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    tools:context=".MainActivity"
+>
+    <org.nairteashop.SegmentedControl
+        android:id="@+id/segmented_control"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+    >
+        <org.nairteashop.SegmentedControlButton android:id="@+id/opt_1" android:text="@string/label_1" />
+        <org.nairteashop.SegmentedControlButton android:id="@+id/opt_2" android:text="@string/label_2" />
+        <org.nairteashop.SegmentedControlButton android:id="@+id/opt_3" android:text="@string/label_3" />
+        <org.nairteashop.SegmentedControlButton android:id="@+id/opt_4" android:text="@string/label_4" />
+    </org.nairteashop.SegmentedControl>
+
+    <TextView
+        android:id="@+id/label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+    />
+</LinearLayout>

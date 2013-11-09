@@ -1,0 +1,10 @@
+<resources>
+    <style name="SegmentedControlButton" parent="@android:style/Widget.CompoundButton.RadioButton">
+        <item name="android:minWidth">@dimen/segmented_control_min_width</item>
+        <item name="android:minHeight">@dimen/segmented_control_min_height</item>
+        <item name="android:gravity">center</item>
+        <item name="android:button">@null</item>
+        <item name="android:background">@drawable/segmented_control_button_bg</item>
+        <item name="android:textColor">@color/segmented_control_button_text</item>
+    </style>    
+</resources>

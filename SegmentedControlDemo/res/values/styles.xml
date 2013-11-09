@@ -1,0 +1,7 @@
+<resources>
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar" />
+
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="segmentedControlButtonStyle">@style/SegmentedControlButton</item>
+    </style>
+</resources>

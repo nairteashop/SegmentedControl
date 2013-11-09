@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SegmentedControlDemo</string>
+
+    <string name="label_1">Eenie</string>
+    <string name="label_2">Meenie</string>
+    <string name="label_3">Miny</string>
+    <string name="label_4">Moe</string>
+</resources>

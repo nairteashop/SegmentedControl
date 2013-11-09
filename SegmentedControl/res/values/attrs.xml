@@ -1,0 +1,4 @@
+<resources>
+    <attr name="segmentedControlButtonStyle" format="reference" />
+    <declare-styleable name="SegmentedControlButton" />
+</resources>
